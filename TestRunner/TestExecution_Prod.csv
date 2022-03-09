@@ -1,0 +1,5 @@
+TC_ID,App_Screen,TC_Name,Run_mode,Owner
+TC_101,Demo Page,test_EXTC_PASS_001,Y,TrackDfect
+TC_102,Demo Page,test_EXTC_PASS_002,Y,TrackDfect
+TC_103,Demo Page,test_EXTC_PASS_002,Verify valid number addition,Y,TrackDfect
+TC_104,Demo Page,test_EXTC_PASS_004,Y,TrackDfect

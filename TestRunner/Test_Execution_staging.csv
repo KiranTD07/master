@@ -1,0 +1,36 @@
+TC_ID,App_Screen,TC_Name,Description,Run_mode,Owner,Tags
+TC_101,Pass_thru_Applet,test_sip_start,The pjsip start,Y,TrackDfect,passthru
+TC_101,Pass_thru_Applet,test_EXTC_PASS_001,valid pass thru URL(200 Response) passed to pass thru,N,TrackDfect,passthru
+TC_102,Pass_thru_Applet,test_EXTC_PASS_002,Invalid pass thru URL(302 Response) passed to pass thru,N,TrackDfect,passthru
+TC_103,Pass_thru_Applet,test_EXTC_PASS_003,Invalid URL (404 Response) passed from pass thru applet to IVR applet,N,TrackDfect,passthru
+TC_104,Pass_thru_Applet,test_EXTC_PASS_004,Invalid response  passed (500) from pass-thru applet to Gather applet,N,TrackDfect,passthru
+TC_105,Pass_thru_Applet,test_EXTC_PASS_005,Dial call status passed from Connect applet to pass thru applet,N,TrackDfect,passthru
+TC_106,Pass_thru_Applet,test_EXTC_PASS_006,Dial call status passed from Connect applet to pass thru applet,N,TrackDfect,passthru
+TC_107,Pass_thru_Applet,test_EXTC_PASS_007,Digits entered in gather applet passed to pass thru applet,N,TrackDfect,passthru
+TC_108,Pass_thru_Applet,test_EXTC_PASS_008,Digits passed from IVR applet to Pass thru ,N,TrackDfect,passthru
+TC_109,Pass_thru_Applet,test_EXTC_PASS_009,Passthru Async passed from passthru to gather applet,N,TrackDfect,passthru
+TC_110,Pass_thru_Applet,test_EXTC_PASS_010, valid passthru URL(200 Response),N,TrackDfect,passthru
+TC_111,Pass_thru_Applet,test_EXTC_PASS_011,Invalid passthru URL(500 Response) and Async enabled in passthru data passed to IVR Applet,N,TrackDfect,passthru
+TC_112,Pass_thru_Applet,test_EXTC_PASS_012,Dialcallstatus passed from Connect applet to passthru applet for async,N,TrackDfect,passthru
+TC_113,Pass_thru_Applet,test_EXTC_PASS_013,Dialcallstatus passed from Connect applet to passthru applet for async,N,TrackDfect,passthru
+TC_114,Pass_thru_Applet,test_EXTC_PASS_014,Digit passed from IVR applet to passthru when Async is enabled,N,TrackDfect,passthru
+TC_115,Pass_thru_Applet,test_EXTC_PASS_015,Digit passed from Gather applet to passthru when Async is enabled,N,TrackDfect,passthru
+TC_116,Pass_thru_Applet,test_EXTC_PASS_016,Validate Invalid Endpoint URL passed in Passthru applet,N,TrackDfect,passthru
+TC_117,Pass_thru_Applet,test_EXTC_PASS_017,URL Response delay in passthru applet and parameter passed from passthru  to Switchcase applet,N,TrackDfect,passthru
+TC_118,Pass_thru_Applet,test_EXTC_PASS_018, Endpoint URL response Timeout in passthru applet ,N,TrackDfect,passthru
+TC_119,Pass_thru_Applet,test_EXTC_PASS_019,Validate the Customfield passed to passthru applet ,N,TrackDfect,passthru
+TC_120,Pass_thru_Applet,test_EXTC_PASS_020,POST Method configured endpoint URL passed in passthru applet and call flow redirected to another gather applet,N,TrackDfect,passthru
+TC_121,Pass_thru_Applet,test_EXTC_PASS_021,Recording URL passed from voice mail to passthru applet when Async is enabled,N,TrackDfect,passthru
+TC_122,Pass_thru_Applet,test_EXTC_PASS_022,Endpoint Response delay in passthru applet to flow passed to gather applet,N,TrackDfect,passthru
+TC_123,Pass_thru_Applet,test_EXTC_PASS_023,Dialcallstatus passed from Programmable Connect applet to passthru applet for async,N,TrackDfect,passthru
+TC_104,IVR_Applet,test_EXTC_IVR_001,Validate Digits passed from IVR applet to connect applet,N,TrackDfect,ivr
+TC_104,IVR_Applet,test_EXTC_IVR_002,Input Timeout in IVR applet and flow passed to pass thru  applet,N,TrackDfect,ivr
+TC_104,IVR_Applet,test_EXTC_IVR_003,Invalid digit entered to IVR applet and call flow connect to pass thru  Applet ,N,TrackDfect,ivr
+TC_104,IVR_Applet,test_EXTC_IVR_004,Digit entered after input timeout interval to IVR applet and digit passed to Gather applet,N,TrackDfect,ivr
+TC_104,IVR_Applet,test_EXTC_IVR_005,Validate 3 digit Key press in IVR applet and flow passed to pass thru applet,Y,TrackDfect,ivr
+TC_104,IVR_Applet,test_EXTC_IVR_006,Input timeout while entering 3 digit Key press in IVR applet and flow passed to  voicemail Applet,N,TrackDfect,ivr
+TC_104,IVR_Applet,test_EXTC_IVR_007,No input from the caller to IVR applet and call passed to pass thru  applet,N,TrackDfect,ivr
+TC_104,IVR_Applet,test_EXTC_IVR_008,Invalid pass-thru URL(500 Response) and Async enabled in pass thru data passed to IVR Applet,N,TrackDfect,ivr
+TC_104,IVR_Applet,test_EXTC_IVR_009,Validate 2 digits input for the IVR applet and digit passed  to Gather Applet,N,TrackDfect,ivr
+TC_104,IVR_Applet,test_EXTC_IVR_010,Validate Digits passed from IVR applet to connect applet,N,TrackDfect,ivr
+TC_105,User Regression,test_sip_stop,The pjsip stop,Y,TrackDfect,
